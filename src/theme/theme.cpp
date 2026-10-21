@@ -76,9 +76,9 @@ static void ApplySharedColors(Theme& t, const theme_palette::SharedColors& p)
 // ライトテーマとダークテーマで共有するフォントとレイアウト定数。
 static void ApplyCommonLayout(Theme& t)
 {
-    t.font_family = L"Yu Gothic UI";
-    t.monospace_font = L"Consolas";
-    t.icon_font = L"Segoe Fluent Icons";
+    t.font_family = L"Microsoft YaHei UI":
+    t.monospace_font = L"Maple Mono NF CN";
+    t.icon_font = L"Segoe Fluent Icons, Segoe MDL2 Assets";
 
     t.font_size_body = 16.0f;
     t.font_size_h[0] = 32.0f;
